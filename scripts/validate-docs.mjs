@@ -9,7 +9,7 @@ const files = [...new Set(execFileSync("git", ["ls-files", "--cached", "--others
 const manifest = JSON.parse(await readFile(path.join(root, "templates/project-docs/manifest.json"), "utf8"));
 const destinations = new Map(Object.entries(manifest).map(([destination, source]) => [path.posix.normalize(`templates/project-docs/${source}`), destination]));
 const anchors = new Map();
-const repositoryPrefix = /^https:\/\/(?:raw\.githubusercontent\.com\/rafabragatrause-cmd\/cerebro-ia\/main\/|github\.com\/rafabragatrause-cmd\/cerebro-ia\/(?:blob|tree)\/main\/)/;
+const repositoryPrefix = /^https:\/\/(?:raw\.githubusercontent\.com\/rafabragatrause-cmd\/toolkit-braga\/main\/|github\.com\/rafabragatrause-cmd\/toolkit-braga\/(?:blob|tree)\/main\/)/;
 
 function getAnchors(text) {
   text = text.replace(/^```[^\n]*\n[\s\S]*?^```/gm, "");

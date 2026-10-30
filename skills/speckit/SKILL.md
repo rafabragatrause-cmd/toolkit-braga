@@ -61,7 +61,7 @@ Aliases aceitos: `spec` = `specify`, `ship` = `converge`.
 
 ## `/speckit` sem argumento
 
-Classificar usando a taxonomia da seção "Fluxo de trabalho" do `AGENTS.md` (instalada pelo HARNESS.md do Cérebro IA):
+Classificar usando a taxonomia da seção "Fluxo de trabalho" do `AGENTS.md` (instalada pelo HARNESS.md do Toolkit Braga):
 
 - **spike** — investigação ou viabilidade. Nenhum estágio. Investigar e
   reportar, sem criar código permanente.

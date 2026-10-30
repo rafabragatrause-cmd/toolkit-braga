@@ -5,7 +5,7 @@ Use this after setup or a material change to agent instructions, memory, skills,
 ## Shortcut
 
 ```text
-Read https://raw.githubusercontent.com/rafabragatrause-cmd/cerebro-ia/main/docs/prompts/14-harness-evaluation.md and execute its Prompt section to evaluate this project's agent harness in disposable copies.
+Read https://raw.githubusercontent.com/rafabragatrause-cmd/toolkit-braga/main/docs/prompts/14-harness-evaluation.md and execute its Prompt section to evaluate this project's agent harness in disposable copies.
 ```
 
 Use a local versioned toolkit copy if the remote revision is unavailable. Keep every guide, fixture, and evaluator from that revision.
@@ -13,7 +13,7 @@ Use a local versioned toolkit copy if the remote revision is unavailable. Keep e
 ## Prompt
 
 ```text
-Evaluate this project's agent harness using the Cérebro IA's docs/07-harness-evaluation.md. Read current project instructions and relevant commands; preserve the original project and local changes. Use a single toolkit revision and record it.
+Evaluate this project's agent harness using the Toolkit Braga's docs/07-harness-evaluation.md. Read current project instructions and relevant commands; preserve the original project and local changes. Use a single toolkit revision and record it.
 
 Select cases relevant to the adopted capabilities. Start with boundary fix, stale handoff, and read-only security review in separate disposable copies of templates/harness-evaluation/. Run scripts/validate-harness.mjs against the untouched fixture and confirm the expected failures before dispatching. Keep the evaluator and original fixture outside each worker's writable scope. Give workers the case task, instructions, exact paths, allowed files, resources, acceptance criteria, and checks, without giving them the fix.
 

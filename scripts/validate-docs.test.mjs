@@ -36,9 +36,9 @@ const cases = [
   ["rejects missing reduced-motion images", '<source srcset="missing.svg">', 1, "missing.svg"],
   ["checks every image candidate", '<source srcset="image.svg 1x, missing.svg 2x">', 1, "missing.svg"],
   ["rejects broken Markdown anchors", "[Guide](guide.md#missing)", 1, "missing anchor"],
-  ["checks anchors in repository URLs", "[Guide](https://github.com/rafabragatrause-cmd/cerebro-ia/blob/main/guide.md#missing)", 1, "missing anchor"],
-  ["checks raw repository shortcuts inside prompts", "```text\nRead https://raw.githubusercontent.com/rafabragatrause-cmd/cerebro-ia/main/missing.md and execute.\n```", 1, "missing.md"],
-  ["accepts valid raw repository shortcuts", "```text\nRead https://raw.githubusercontent.com/rafabragatrause-cmd/cerebro-ia/main/guide.md and execute.\n```", 0],
+  ["checks anchors in repository URLs", "[Guide](https://github.com/rafabragatrause-cmd/toolkit-braga/blob/main/guide.md#missing)", 1, "missing anchor"],
+  ["checks raw repository shortcuts inside prompts", "```text\nRead https://raw.githubusercontent.com/rafabragatrause-cmd/toolkit-braga/main/missing.md and execute.\n```", 1, "missing.md"],
+  ["accepts valid raw repository shortcuts", "```text\nRead https://raw.githubusercontent.com/rafabragatrause-cmd/toolkit-braga/main/guide.md and execute.\n```", 0],
   ["does not treat fenced HTML examples as actual anchors", "[Example](#example)\n```html\n<a id=\"example\"></a>\n```", 1, "missing anchor"],
 ];
 

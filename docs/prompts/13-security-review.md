@@ -7,7 +7,7 @@ Run this in the target repository. The default is a read-only repository review 
 Paste into the agent conversation, not the terminal:
 
 ```text
-Read https://raw.githubusercontent.com/rafabragatrause-cmd/cerebro-ia/main/docs/prompts/13-security-review.md and execute the entire “Prompt” block in this repository. Use repository mode, preserve my current client/model/authentication, and save a redacted report outside the repository.
+Read https://raw.githubusercontent.com/rafabragatrause-cmd/toolkit-braga/main/docs/prompts/13-security-review.md and execute the entire “Prompt” block in this repository. Use repository mode, preserve my current client/model/authentication, and save a redacted report outside the repository.
 ```
 
 The remote shortcut requires this file on `main`. A local toolkit copy works too: ask the agent to read this file by its absolute path. The block below is self-contained; paste it directly when fetching files is unavailable.

@@ -7,7 +7,7 @@ For an existing application, use [prompt 12](12-existing-project-setup.md): it a
 Paste into the agent with access to the target directory:
 
 ```text
-Read https://raw.githubusercontent.com/rafabragatrause-cmd/cerebro-ia/main/docs/prompts/11-next-project-bootstrap.md and execute the setup in this directory.
+Read https://raw.githubusercontent.com/rafabragatrause-cmd/toolkit-braga/main/docs/prompts/11-next-project-bootstrap.md and execute the setup in this directory.
 Project: [name, problem, audience, main flows and constraints].
 ```
 
@@ -16,8 +16,8 @@ If you have the toolkit open, use the local file and create the application outs
 ## Prompt
 
 ```text
-Prepare the foundation of a new project using the Cérebro IA:
-https://github.com/rafabragatrause-cmd/cerebro-ia
+Prepare the foundation of a new project using the Toolkit Braga:
+https://github.com/rafabragatrause-cmd/toolkit-braga
 
 Use the project description supplied with this prompt. The destination is the directory indicated by the user or the current project directory. If the current directory is the toolkit itself, create a sibling folder named after the project. Preserve existing files and changes.
 

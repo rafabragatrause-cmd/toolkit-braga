@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="680" viewBox="0 0 1600 680" role="img" aria-labelledby="title description">
   <!-- hero-still.svg is generated from this file with animations disabled; keep both aligned. -->
-  <title id="title">Cérebro IA — Rafael Braga</title>
-  <desc id="description">Banner preto e laranja. À esquerda, o nome Cérebro IA e a frase "o harness que eu uso para construir com Claude Code e Codex". À direita, um mapa mental com seis ramos — pensar, planejar, construir, revisar, memória e provar — ligados a um núcleo laranja. A animação termina em poucos segundos e respeita movimento reduzido.</desc>
+  <title id="title">Toolkit Braga — Rafael Braga</title>
+  <desc id="description">Banner preto e laranja. À esquerda, o nome Toolkit Braga e a frase "o harness que eu uso para construir com Claude Code e Codex". À direita, um mapa mental com seis ramos — pensar, planejar, construir, revisar, memória e provar — ligados a um núcleo laranja. A animação termina em poucos segundos e respeita movimento reduzido.</desc>
   <defs>
     <radialGradient id="bg" cx=".72" cy=".42" r=".9">
       <stop stop-color="#2a1206"/>
@@ -64,17 +64,16 @@
     <text x="96" y="150" class="mono" font-size="20" fill="#ff7a3d" letter-spacing="2">› HARNESS PARA CLAUDE CODE + CODEX</text>
   </g>
   <g class="rise d1">
-    <text x="90" y="290" font-size="150" font-weight="800" fill="#f7f4ef" letter-spacing="-6">Cérebro</text>
+    <text x="90" y="290" font-size="150" font-weight="800" fill="#f7f4ef" letter-spacing="-6">Toolkit</text>
   </g>
   <g class="rise d2">
-    <text x="90" y="420" font-size="150" font-weight="800" fill="#ff5a14" letter-spacing="-6">IA</text>
-    <text x="300" y="400" font-size="26" font-weight="500" fill="#f7f4ef" fill-opacity=".72">o sistema de skills que eu uso</text>
-    <text x="300" y="434" font-size="26" font-weight="500" fill="#f7f4ef" fill-opacity=".72">para construir com IA.</text>
+    <text x="90" y="420" font-size="150" font-weight="800" fill="#ff5a14" letter-spacing="-6">Braga</text>
+    <text x="96" y="486" font-size="26" font-weight="500" fill="#f7f4ef" fill-opacity=".72">o sistema de skills que eu uso para construir com IA.</text>
   </g>
   <g class="rise d3">
-    <line x1="96" y1="500" x2="600" y2="500" stroke="#ffffff" stroke-opacity=".14"/>
-    <text x="96" y="545" font-size="24" font-weight="700" fill="#f7f4ef">Rafael Braga</text>
-    <text x="96" y="578" class="mono" font-size="16" fill="#f7f4ef" fill-opacity=".5" letter-spacing="1">SISTEMA ANTES DE GENTE.</text>
+    <line x1="96" y1="524" x2="600" y2="524" stroke="#ffffff" stroke-opacity=".14"/>
+    <text x="96" y="566" font-size="24" font-weight="700" fill="#f7f4ef">Rafael Braga</text>
+    <text x="96" y="598" class="mono" font-size="16" fill="#f7f4ef" fill-opacity=".5" letter-spacing="1">SISTEMA ANTES DE GENTE.</text>
   </g>
 
   <!-- right: mind map -->
@@ -83,13 +82,13 @@
     <circle cx="1180" cy="340" r="150" stroke-opacity=".08"/>
   </g>
 
-  <g fill="none" stroke="url(#wire)" stroke-width="2" stroke-linecap="round">
-    <path class="wire w1" d="M1180 340 C1150 260 1080 200 1010 168"/>
-    <path class="wire w2" d="M1180 340 C1210 260 1290 200 1356 168"/>
-    <path class="wire w3" d="M1180 340 C1290 340 1350 340 1418 340"/>
-    <path class="wire w4" d="M1180 340 C1210 420 1290 480 1356 512"/>
-    <path class="wire w5" d="M1180 340 C1150 420 1080 480 1010 512"/>
-    <path class="wire w6" d="M1180 340 C1070 340 1010 340 944 340"/>
+  <g fill="none" stroke="#ff7a3d" stroke-opacity=".75" stroke-width="2" stroke-linecap="round">
+    <path class="wire w1" d="M1180 340 C1160 280 1100 230 1060 202"/>
+    <path class="wire w2" d="M1180 340 C1200 280 1260 230 1306 202"/>
+    <path class="wire w3" d="M1180 340 C1260 340 1320 340 1360 340"/>
+    <path class="wire w4" d="M1180 340 C1200 400 1260 450 1306 478"/>
+    <path class="wire w5" d="M1180 340 C1160 400 1100 450 1060 478"/>
+    <path class="wire w6" d="M1180 340 C1100 340 1040 340 996 340"/>
   </g>
 
   <g>

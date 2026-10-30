@@ -9,7 +9,7 @@ The agent adapts the work to the stack, client and actual repository state. Next
 Open the agent **at the existing project's root**, with file and terminal access, and paste:
 
 ```text
-Read https://raw.githubusercontent.com/rafabragatrause-cmd/cerebro-ia/main/docs/prompts/12-existing-project-setup.md and execute the entire block in the “Prompt” section in this project, starting with brainstorming.
+Read https://raw.githubusercontent.com/rafabragatrause-cmd/toolkit-braga/main/docs/prompts/12-existing-project-setup.md and execute the entire block in the “Prompt” section in this project, starting with brainstorming.
 ```
 
 The remote shortcut becomes available when this file is published on `main`. Until then, use the path to the local toolkit copy. Paste the text into the agent conversation, not the terminal. There are no mandatory fields: the agent discovers the project and asks only about what it cannot safely determine.
@@ -26,10 +26,10 @@ The remote shortcut becomes available when this file is published on `main`. Unt
 ## Prompt
 
 ```markdown
-# Adopt, update and verify the Cérebro IA in this existing project
+# Adopt, update and verify the Toolkit Braga in this existing project
 
 Execute the complete, applicable setup of this toolkit in the open project:
-https://github.com/rafabragatrause-cmd/cerebro-ia
+https://github.com/rafabragatrause-cmd/toolkit-braga
 
 I want the project prepared for AI-assisted development, with integrated tools, reliable context, harness engineering, verifiable quality and straightforward maintenance. Complete the approved work through delivery; a diagnosis or list of recommendations alone does not fulfill the request.
 

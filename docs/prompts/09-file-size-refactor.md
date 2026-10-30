@@ -6,7 +6,7 @@ After prompt 08 measures and gives you the list of files above the ceiling,
 paste this line:
 
 ```
-Read https://raw.githubusercontent.com/rafabragatrause-cmd/cerebro-ia/main/docs/prompts/09-file-size-refactor.md
+Read https://raw.githubusercontent.com/rafabragatrause-cmd/toolkit-braga/main/docs/prompts/09-file-size-refactor.md
 and execute the prompt in that file in this project. Use MAX_LINES=350,
 BATCH_SIZE=3 and RULE_ID=quality/max-lines. Discover the lint, test and
 typecheck commands by reading package.json yourself.

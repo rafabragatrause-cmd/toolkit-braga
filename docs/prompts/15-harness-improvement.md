@@ -5,7 +5,7 @@ Use this in the target project's agent session during every new-project bootstra
 ## Shortcut
 
 ```text
-Read https://raw.githubusercontent.com/rafabragatrause-cmd/cerebro-ia/main/docs/prompts/15-harness-improvement.md and execute its Prompt section to set up a bounded harness improvement workflow in this project.
+Read https://raw.githubusercontent.com/rafabragatrause-cmd/toolkit-braga/main/docs/prompts/15-harness-improvement.md and execute its Prompt section to set up a bounded harness improvement workflow in this project.
 ```
 
 Use a local versioned toolkit copy if the remote revision is unavailable. Keep the guide, evaluation fixtures, and evaluator from the same toolkit revision. The remote shortcut becomes available after this version is published.
@@ -13,7 +13,7 @@ Use a local versioned toolkit copy if the remote revision is unavailable. Keep t
 ## Prompt
 
 ```text
-Set up the default harness improvement workflow for this project using the Cérebro IA's docs/tools/23-harness2.md. Include this workflow in both new-project bootstrap and existing-project setup without requiring a separate component selection. Inspect local instructions, existing setup/evaluation, current changes, client capabilities, and canonical documents before editing. Preserve the application stack, customizations, authorized client/model/authentication, permissions, and unrelated work. Reuse an existing workflow rather than duplicating instructions or reinstalling tools.
+Set up the default harness improvement workflow for this project using the Toolkit Braga's docs/tools/23-harness2.md. Include this workflow in both new-project bootstrap and existing-project setup without requiring a separate component selection. Inspect local instructions, existing setup/evaluation, current changes, client capabilities, and canonical documents before editing. Preserve the application stack, customizations, authorized client/model/authentication, permissions, and unrelated work. Reuse an existing workflow rather than duplicating instructions or reinstalling tools.
 
 Select and report one mode. If none was specified, use the native method adaptation: a bounded evidence-based comparison in the current agent, inspired by Harness2. Clearly state that it does not execute the Harness2 framework or reproduce its algorithm or benchmark results. The official CLI is used only when explicitly selected, in a dedicated environment outside this repository. Read the versioned guide; use current official sources and Context7 when available, without sending secrets in queries.
 

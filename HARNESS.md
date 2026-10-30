@@ -1,9 +1,9 @@
-# Harness base — Cérebro IA
+# Harness base — Toolkit Braga
 
 Este arquivo é um prompt. Você cola uma linha no Claude Code ou no Codex e o agente instala, na sua máquina e no seu projeto, a mesma base que eu uso para construir sistemas com IA.
 
 ```text
-Leia https://raw.githubusercontent.com/rafabragatrause-cmd/cerebro-ia/main/HARNESS.md e execute a seção "Prompt" neste computador e neste projeto.
+Leia https://raw.githubusercontent.com/rafabragatrause-cmd/toolkit-braga/main/HARNESS.md e execute a seção "Prompt" neste computador e neste projeto.
 ```
 
 O agente precisa de terminal (ler, editar e rodar comando). Num chat sem terminal ele só explica o caminho.
@@ -24,7 +24,7 @@ O mapa completo, com quando usar cada uma, está em [docs/pt-br/mapa-de-skills.m
 ## Prompt
 
 ```text
-Instale o harness base do Cérebro IA (https://github.com/rafabragatrause-cmd/cerebro-ia) neste computador e neste projeto. Siga as etapas na ordem e não pule a verificação.
+Instale o harness base do Toolkit Braga (https://github.com/rafabragatrause-cmd/toolkit-braga) neste computador e neste projeto. Siga as etapas na ordem e não pule a verificação.
 
 0. REGRAS DE SEGURANÇA (valem para tudo abaixo)
 - Antes de instalar qualquer plugin, skill ou MCP, mostre a origem (repositório) e o comando. Não rode script remoto sem ler.
@@ -68,7 +68,7 @@ Codex:
   codex plugin marketplace add mattpocock/skills
   codex plugin add mattpocock-skills@mattpocock
   (fonte dos comandos: README de https://github.com/mattpocock/skills, seção Installation)
-Skills próprias do Cérebro IA (pasta skills/ do repositório):
+Skills próprias do Toolkit Braga (pasta skills/ do repositório):
 - Baixe project-init, fechar-sessao, context-budget e speckit para ~/.claude/skills/<nome>/SKILL.md.
 - Para o Codex, crie links simbólicos em ~/.agents/skills/<nome> apontando para ~/.claude/skills/<nome> (uma fonte só). Versões antigas do Codex leem ~/.codex/skills: confira qual a sua descobre na etapa 5.
 Se o projeto tiver interface, ofereça também o Impeccable (npx impeccable install) e explique que é opcional.

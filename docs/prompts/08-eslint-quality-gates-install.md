@@ -6,7 +6,7 @@ If you do not want to copy a prompt, paste this line into your agent. It
 works with any agent that can read a URL — Claude Code, Codex, Cursor:
 
 ```
-Read https://raw.githubusercontent.com/rafabragatrause-cmd/cerebro-ia/main/docs/prompts/08-eslint-quality-gates-install.md
+Read https://raw.githubusercontent.com/rafabragatrause-cmd/toolkit-braga/main/docs/prompts/08-eslint-quality-gates-install.md
 and execute the prompt in that file in this project. Use MAX_LINES=350
 and the package manager you find in the repository.
 ```
@@ -91,7 +91,7 @@ this project's real shape.
 
 Fetch these six files into a temporary location from the same revision of
 [SOURCE_URL] (default:
-https://raw.githubusercontent.com/rafabragatrause-cmd/cerebro-ia/main/templates/eslint):
+https://raw.githubusercontent.com/rafabragatrause-cmd/toolkit-braga/main/templates/eslint):
 
   eslint-rules/utils.cjs
   eslint-rules/core-rules.cjs

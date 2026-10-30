@@ -559,7 +559,7 @@ the greatest effect on code growth, there is a one-line path. Paste into
 your agent:
 
 ```
-Read https://raw.githubusercontent.com/rafabragatrause-cmd/cerebro-ia/main/docs/prompts/08-eslint-quality-gates-install.md
+Read https://raw.githubusercontent.com/rafabragatrause-cmd/toolkit-braga/main/docs/prompts/08-eslint-quality-gates-install.md
 and execute its prompt in this project. Use MAX_LINES=350.
 ```
 

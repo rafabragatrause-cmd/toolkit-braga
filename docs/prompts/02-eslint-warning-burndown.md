@@ -9,7 +9,7 @@ If you followed the sequence
 line into your agent:
 
 ```
-Read https://raw.githubusercontent.com/rafabragatrause-cmd/cerebro-ia/main/docs/prompts/02-eslint-warning-burndown.md
+Read https://raw.githubusercontent.com/rafabragatrause-cmd/toolkit-braga/main/docs/prompts/02-eslint-warning-burndown.md
 and execute the prompt in that file in this project, for the entire set
 of remaining warnings. Discover the lint, test, typecheck and build commands
 by reading package.json yourself.

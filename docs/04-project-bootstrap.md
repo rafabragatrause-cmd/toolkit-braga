@@ -11,7 +11,7 @@ This works with an agent that can read files, edit, and execute commands. Claude
 Open the agent in the destination directory and paste:
 
 ```text
-Read https://raw.githubusercontent.com/rafabragatrause-cmd/cerebro-ia/main/docs/prompts/11-next-project-bootstrap.md and execute setup in this directory.
+Read https://raw.githubusercontent.com/rafabragatrause-cmd/toolkit-braga/main/docs/prompts/11-next-project-bootstrap.md and execute setup in this directory.
 Project: [name, problem, audience, main flows, and constraints].
 ```
 

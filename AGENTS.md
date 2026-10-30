@@ -1,4 +1,4 @@
-# Cérebro IA
+# Toolkit Braga
 
 This repository distributes documentation, prompts, and templates. It is not a Next.js application; projects are generated in separate directories.
 

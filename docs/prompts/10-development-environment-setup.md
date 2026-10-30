@@ -19,7 +19,7 @@ Save the report and manifest outside projects, in a user setup directory, and re
 To use without cloning, after this version is published on the `main` branch:
 
 ```text
-Read https://raw.githubusercontent.com/rafabragatrause-cmd/cerebro-ia/main/docs/prompts/10-development-environment-setup.md
+Read https://raw.githubusercontent.com/rafabragatrause-cmd/toolkit-braga/main/docs/prompts/10-development-environment-setup.md
 and execute the entire block in the “Prompt” section on this computer. Save the report and manifest in a user setup directory, outside projects, and report the final paths.
 ```
 

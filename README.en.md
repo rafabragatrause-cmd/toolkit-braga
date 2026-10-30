@@ -6,11 +6,11 @@
 <p align="center">
   <picture>
     <source media="(prefers-reduced-motion: reduce)" srcset="docs/assets/readme/hero-still.svg" />
-    <img src="docs/assets/readme/hero.svg" alt="Cérebro IA — machine setup and individual project setup, in black and orange." width="1600" />
+    <img src="docs/assets/readme/hero.svg" alt="Toolkit Braga — machine setup and individual project setup, in black and orange." width="1600" />
   </picture>
 </p>
 
-# Cérebro IA
+# Toolkit Braga
 
 **Set up your machine. Bootstrap or upgrade your projects.**
 
@@ -29,7 +29,7 @@ You describe the goal. The agent inspects the environment, organizes decisions, 
 </p>
 
 <p align="center">
-  <a href=".github/workflows/validate.yml"><img src="https://github.com/rafabragatrause-cmd/cerebro-ia/actions/workflows/validate.yml/badge.svg" alt="Toolkit validation status on GitHub Actions" /></a>
+  <a href=".github/workflows/validate.yml"><img src="https://github.com/rafabragatrause-cmd/toolkit-braga/actions/workflows/validate.yml/badge.svg" alt="Toolkit validation status on GitHub Actions" /></a>
   &nbsp;
   <a href="LICENSE"><strong>MIT</strong></a>
   &nbsp; · &nbsp;
@@ -84,7 +84,7 @@ Setup starts with what exists: product, files, runtime, package manager, instruc
 Open the agent in the destination directory and paste. Replace the second line with your product description:
 
 ```text
-Read https://raw.githubusercontent.com/rafabragatrause-cmd/cerebro-ia/main/docs/prompts/11-next-project-bootstrap.md and execute setup in this directory.
+Read https://raw.githubusercontent.com/rafabragatrause-cmd/toolkit-braga/main/docs/prompts/11-next-project-bootstrap.md and execute setup in this directory.
 Project: [name, problem, audience, main flows, and constraints].
 ```
 
@@ -106,7 +106,7 @@ The [bootstrap](docs/04-project-bootstrap.md) ends with a configured foundation 
 Open the agent at the application root and paste:
 
 ```text
-Read https://raw.githubusercontent.com/rafabragatrause-cmd/cerebro-ia/main/docs/prompts/12-existing-project-setup.md and execute the entire “Prompt” section block in this project, starting with brainstorming.
+Read https://raw.githubusercontent.com/rafabragatrause-cmd/toolkit-braga/main/docs/prompts/12-existing-project-setup.md and execute the entire “Prompt” section block in this project, starting with brainstorming.
 ```
 
 The prompt supports a codebase without the toolkit, partial adoption, or an older configuration. Work follows this path:
@@ -122,7 +122,7 @@ The prompt supports a codebase without the toolkit, partial adoption, or an olde
 ### Prepare your machine
 
 ```text
-Read https://raw.githubusercontent.com/rafabragatrause-cmd/cerebro-ia/main/docs/prompts/10-development-environment-setup.md and execute the entire “Prompt” section block on this computer.
+Read https://raw.githubusercontent.com/rafabragatrause-cmd/toolkit-braga/main/docs/prompts/10-development-environment-setup.md and execute the entire “Prompt” section block on this computer.
 ```
 
 [Global setup](docs/03-environment-setup.md) handles system tools, Node.js, Docker, agents, plugins, and integrations. It records versions, scopes, backups, validations, and required interventions. Project setup reuses this environment.
@@ -279,7 +279,7 @@ Choose a task, open the prompt, and copy the indicated block. The [complete cata
 To install only the quality gates:
 
 ```text
-Read https://raw.githubusercontent.com/rafabragatrause-cmd/cerebro-ia/main/docs/prompts/08-eslint-quality-gates-install.md and execute the prompt in this project. Use MAX_LINES=350.
+Read https://raw.githubusercontent.com/rafabragatrause-cmd/toolkit-braga/main/docs/prompts/08-eslint-quality-gates-install.md and execute the prompt in this project. Use MAX_LINES=350.
 ```
 
 After measurement, [prompt 09](docs/prompts/09-file-size-refactor.md) guides large-file refactoring. For Vercel skills alone, use the [catalog and local installation](docs/tools/16-vercel-skills.md). Modular adoption remains available without running the entire setup.
@@ -318,7 +318,7 @@ The toolkit is neither a custom generator nor a ready-made application. New scaf
 ## 07 / Explore the documentation
 
 ```text
-cerebro-ia/
+toolkit-braga/
 ├── README.md                 Portuguese entry point
 ├── README.en.md              You are here
 ├── docs/                     Guides, defaults, and evidence

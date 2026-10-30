@@ -5,11 +5,11 @@
 <p align="center">
   <picture>
     <source media="(prefers-reduced-motion: reduce)" srcset="docs/assets/readme/hero-still.svg" />
-    <img src="docs/assets/readme/hero.svg" alt="Cérebro IA, de Rafael Braga — mapa mental de skills para Claude Code e Codex, em preto e laranja." width="1600" />
+    <img src="docs/assets/readme/hero.svg" alt="Toolkit Braga, de Rafael Braga — mapa mental de skills para Claude Code e Codex, em preto e laranja." width="1600" />
   </picture>
 </p>
 
-# Cérebro IA
+# Toolkit Braga
 
 **O harness que eu uso para construir sistemas com Claude Code e Codex.**
 
@@ -26,7 +26,7 @@ Você cola uma linha, o agente instala a base na sua máquina e no seu projeto, 
 </p>
 
 <p align="center">
-  <a href=".github/workflows/validate.yml"><img src="https://github.com/rafabragatrause-cmd/cerebro-ia/actions/workflows/validate.yml/badge.svg" alt="Validação do toolkit no GitHub Actions" /></a>
+  <a href=".github/workflows/validate.yml"><img src="https://github.com/rafabragatrause-cmd/toolkit-braga/actions/workflows/validate.yml/badge.svg" alt="Validação do toolkit no GitHub Actions" /></a>
   &nbsp;
   <a href="LICENSE"><strong>MIT</strong></a>
 </p>
@@ -40,7 +40,7 @@ Você cola uma linha, o agente instala a base na sua máquina e no seu projeto, 
 Abra o Claude Code ou o Codex na pasta do seu projeto e cole:
 
 ```text
-Leia https://raw.githubusercontent.com/rafabragatrause-cmd/cerebro-ia/main/HARNESS.md e execute a seção "Prompt" neste computador e neste projeto.
+Leia https://raw.githubusercontent.com/rafabragatrause-cmd/toolkit-braga/main/HARNESS.md e execute a seção "Prompt" neste computador e neste projeto.
 ```
 
 O agente faz o diagnóstico, mostra o que vai instalar, pede confirmação antes de mexer em configuração global e termina com um relatório do que foi verificado. Detalhes em [HARNESS.md](HARNESS.md).
@@ -82,20 +82,20 @@ Além do harness base, o repositório traz guias, prompts e templates para prepa
 ### Comece um projeto com duas linhas
 
 ```text
-Leia https://raw.githubusercontent.com/rafabragatrause-cmd/cerebro-ia/main/docs/prompts/11-next-project-bootstrap.md e execute o setup neste diretório.
+Leia https://raw.githubusercontent.com/rafabragatrause-cmd/toolkit-braga/main/docs/prompts/11-next-project-bootstrap.md e execute o setup neste diretório.
 Projeto: [nome, problema, público, fluxos principais e restrições].
 ```
 
 ### Configure um projeto que já existe
 
 ```text
-Leia https://raw.githubusercontent.com/rafabragatrause-cmd/cerebro-ia/main/docs/prompts/12-existing-project-setup.md e execute integralmente o bloco da seção "Prompt" neste projeto, começando pelo brainstorming.
+Leia https://raw.githubusercontent.com/rafabragatrause-cmd/toolkit-braga/main/docs/prompts/12-existing-project-setup.md e execute integralmente o bloco da seção "Prompt" neste projeto, começando pelo brainstorming.
 ```
 
 ### Prepare a máquina
 
 ```text
-Leia https://raw.githubusercontent.com/rafabragatrause-cmd/cerebro-ia/main/docs/prompts/10-development-environment-setup.md e execute integralmente o bloco da seção "Prompt" neste computador.
+Leia https://raw.githubusercontent.com/rafabragatrause-cmd/toolkit-braga/main/docs/prompts/10-development-environment-setup.md e execute integralmente o bloco da seção "Prompt" neste computador.
 ```
 
 A referência completa, com cada seção explicada, está no [README em inglês](README.en.md).
@@ -103,7 +103,7 @@ A referência completa, com cada seção explicada, está no [README em inglês]
 ## 03 / Estrutura
 
 ```text
-cerebro-ia/
+toolkit-braga/
 ├── README.md            Você está aqui
 ├── HARNESS.md           Prompt do harness base
 ├── skills/              Skills próprias, prontas para copiar
