@@ -61,7 +61,7 @@ Aliases aceitos: `spec` = `specify`, `ship` = `converge`.
 
 ## `/speckit` sem argumento
 
-Classificar usando a taxonomia de `~/harness/README.md`:
+Classificar usando a taxonomia da seção "Fluxo de trabalho" do `AGENTS.md` (instalada pelo HARNESS.md do Cérebro IA):
 
 - **spike** — investigação ou viabilidade. Nenhum estágio. Investigar e
   reportar, sem criar código permanente.
@@ -81,7 +81,7 @@ confirmação da classificação.
 é revisitado raramente.
 
 Registra só o que é **inviolável e específico deste projeto**. Não repetir o
-que já está em `~/.claude/CLAUDE.md` nem em `~/harness/README.md` — esses já
+que já está no `CLAUDE.md` global nem no `AGENTS.md` do projeto — esses já
 estão em contexto. Se um princípio vale para todos os seus projetos, ele
 pertence lá, não aqui.
 

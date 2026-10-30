@@ -67,9 +67,10 @@ Codex:
   codex plugin add ponytail@ponytail
   codex plugin marketplace add mattpocock/skills
   codex plugin add mattpocock-skills@mattpocock
+  (fonte dos comandos: README de https://github.com/mattpocock/skills, seção Installation)
 Skills próprias do Cérebro IA (pasta skills/ do repositório):
 - Baixe project-init, fechar-sessao, context-budget e speckit para ~/.claude/skills/<nome>/SKILL.md.
-- Para o Codex, crie links simbólicos em ~/.codex/skills/<nome> apontando para ~/.claude/skills/<nome> (uma fonte só).
+- Para o Codex, crie links simbólicos em ~/.agents/skills/<nome> apontando para ~/.claude/skills/<nome> (uma fonte só). Versões antigas do Codex leem ~/.codex/skills: confira qual a sua descobre na etapa 5.
 Se o projeto tiver interface, ofereça também o Impeccable (npx impeccable install) e explique que é opcional.
 
 5. VERIFICAÇÃO (obrigatória)
