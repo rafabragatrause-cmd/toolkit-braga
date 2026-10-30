@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="680" viewBox="0 0 1600 680" role="img" aria-labelledby="title description">
+  <!-- hero-still.svg is generated from this file with animations disabled; keep both aligned. -->
+  <title id="title">Cérebro IA — Rafael Braga</title>
+  <desc id="description">Banner preto e laranja. À esquerda, o nome Cérebro IA e a frase "o harness que eu uso para construir com Claude Code e Codex". À direita, um mapa mental com seis ramos — pensar, planejar, construir, revisar, memória e provar — ligados a um núcleo laranja. A animação termina em poucos segundos e respeita movimento reduzido.</desc>
+  <defs>
+    <radialGradient id="bg" cx=".72" cy=".42" r=".9">
+      <stop stop-color="#2a1206"/>
+      <stop offset=".38" stop-color="#110805"/>
+      <stop offset="1" stop-color="#050505"/>
+    </radialGradient>
+    <radialGradient id="core" cx=".5" cy=".5" r=".5">
+      <stop stop-color="#ffb07a"/>
+      <stop offset=".35" stop-color="#ff6a1f"/>
+      <stop offset="1" stop-color="#ff4d00" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="halo" cx=".5" cy=".5" r=".5">
+      <stop stop-color="#ff5a14" stop-opacity=".42"/>
+      <stop offset=".6" stop-color="#ff5a14" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#ff5a14" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#ffffff" stop-opacity=".14"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity=".04"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#ffffff" stop-opacity=".55"/>
+      <stop offset=".5" stop-color="#ffffff" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#ff7a3d" stop-opacity=".45"/>
+    </linearGradient>
+    <linearGradient id="wire" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#ff6a1f" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity=".25"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".035"/>
+    </pattern>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="18"/></filter>
+    <style>
+      text { font-family: "Inter Tight", Inter, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+      .mono { font-family: "JetBrains Mono", "SF Mono", Menlo, Consolas, monospace; }
+      .rise { animation: rise .9s cubic-bezier(.2,.8,.2,1) backwards; }
+      .d1 { animation-delay: .1s } .d2 { animation-delay: .25s } .d3 { animation-delay: .4s } .d4 { animation-delay: .55s }
+      .wire { stroke-dasharray: 260; animation: draw 1.1s cubic-bezier(.6,0,.2,1) backwards; }
+      .node { animation: pop .7s cubic-bezier(.2,1.4,.4,1) backwards; transform-box: fill-box; transform-origin: center; }
+      .w1, .n1 { animation-delay: .9s } .w2, .n2 { animation-delay: 1.05s } .w3, .n3 { animation-delay: 1.2s }
+      .w4, .n4 { animation-delay: 1.35s } .w5, .n5 { animation-delay: 1.5s } .w6, .n6 { animation-delay: 1.65s }
+      .orbit { transform-origin: 1180px 340px; animation: spin 4.8s cubic-bezier(.3,0,.2,1) backwards; }
+      .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 2.4s ease-out 2 backwards; }
+      @keyframes rise { from { opacity: 0; transform: translateY(18px) } }
+      @keyframes draw { from { stroke-dashoffset: 260 } }
+      @keyframes pop { from { opacity: 0; transform: scale(.6) } }
+      @keyframes spin { from { transform: rotate(-90deg); opacity: 0 } }
+      @keyframes pulse { 0% { transform: scale(.85); opacity: .2 } 60% { opacity: 1 } }
+      * { animation: none !important; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="680" fill="url(#bg)"/>
+  <rect width="1600" height="680" fill="url(#grid)"/>
+  <circle cx="1180" cy="340" r="300" fill="url(#halo)"/>
+
+  <!-- left: identity -->
+  <g class="rise">
+    <text x="96" y="150" class="mono" font-size="20" fill="#ff7a3d" letter-spacing="2">› HARNESS PARA CLAUDE CODE + CODEX</text>
+  </g>
+  <g class="rise d1">
+    <text x="90" y="290" font-size="150" font-weight="800" fill="#f7f4ef" letter-spacing="-6">Cérebro</text>
+  </g>
+  <g class="rise d2">
+    <text x="90" y="420" font-size="150" font-weight="800" fill="#ff5a14" letter-spacing="-6">IA</text>
+    <text x="300" y="400" font-size="26" font-weight="500" fill="#f7f4ef" fill-opacity=".72">o sistema de skills que eu uso</text>
+    <text x="300" y="434" font-size="26" font-weight="500" fill="#f7f4ef" fill-opacity=".72">para construir com IA.</text>
+  </g>
+  <g class="rise d3">
+    <line x1="96" y1="500" x2="600" y2="500" stroke="#ffffff" stroke-opacity=".14"/>
+    <text x="96" y="545" font-size="24" font-weight="700" fill="#f7f4ef">Rafael Braga</text>
+    <text x="96" y="578" class="mono" font-size="16" fill="#f7f4ef" fill-opacity=".5" letter-spacing="1">SISTEMA ANTES DE GENTE.</text>
+  </g>
+
+  <!-- right: mind map -->
+  <g class="orbit" fill="none" stroke="#ffffff">
+    <circle cx="1180" cy="340" r="232" stroke-opacity=".10" stroke-dasharray="2 10"/>
+    <circle cx="1180" cy="340" r="150" stroke-opacity=".08"/>
+  </g>
+
+  <g fill="none" stroke="url(#wire)" stroke-width="2" stroke-linecap="round">
+    <path class="wire w1" d="M1180 340 C1150 260 1080 200 1010 168"/>
+    <path class="wire w2" d="M1180 340 C1210 260 1290 200 1356 168"/>
+    <path class="wire w3" d="M1180 340 C1290 340 1350 340 1418 340"/>
+    <path class="wire w4" d="M1180 340 C1210 420 1290 480 1356 512"/>
+    <path class="wire w5" d="M1180 340 C1150 420 1080 480 1010 512"/>
+    <path class="wire w6" d="M1180 340 C1070 340 1010 340 944 340"/>
+  </g>
+
+  <g>
+    <circle cx="1180" cy="340" r="86" fill="#ff5a14" opacity=".35" filter="url(#blur)"/>
+    <circle class="pulse" cx="1180" cy="340" r="64" fill="url(#core)"/>
+    <circle cx="1180" cy="340" r="44" fill="#120804" stroke="#ff7a3d" stroke-width="1.5"/>
+    <text x="1180" y="346" text-anchor="middle" class="mono" font-size="15" font-weight="700" fill="#ffb07a" letter-spacing="1">CÉREBRO</text>
+  </g>
+
+  <!-- glass nodes: label + example skills -->
+  <g class="node n1"><rect x="880" y="126" width="196" height="76" rx="18" fill="url(#glass)" stroke="url(#edge)"/>
+    <text x="902" y="158" font-size="20" font-weight="700" fill="#f7f4ef">Pensar</text>
+    <text x="902" y="184" class="mono" font-size="14" fill="#ff9a62">grill-me</text></g>
+  <g class="node n2"><rect x="1290" y="126" width="216" height="76" rx="18" fill="url(#glass)" stroke="url(#edge)"/>
+    <text x="1312" y="158" font-size="20" font-weight="700" fill="#f7f4ef">Planejar</text>
+    <text x="1312" y="184" class="mono" font-size="14" fill="#ff9a62">superpowers</text></g>
+  <g class="node n3"><rect x="1360" y="302" width="200" height="76" rx="18" fill="url(#glass)" stroke="url(#edge)"/>
+    <text x="1382" y="334" font-size="20" font-weight="700" fill="#f7f4ef">Construir</text>
+    <text x="1382" y="360" class="mono" font-size="14" fill="#ff9a62">ponytail · tdd</text></g>
+  <g class="node n4"><rect x="1290" y="478" width="216" height="76" rx="18" fill="url(#glass)" stroke="url(#edge)"/>
+    <text x="1312" y="510" font-size="20" font-weight="700" fill="#f7f4ef">Revisar</text>
+    <text x="1312" y="536" class="mono" font-size="14" fill="#ff9a62">code-review · codex</text></g>
+  <g class="node n5"><rect x="880" y="478" width="196" height="76" rx="18" fill="url(#glass)" stroke="url(#edge)"/>
+    <text x="902" y="510" font-size="20" font-weight="700" fill="#f7f4ef">Provar</text>
+    <text x="902" y="536" class="mono" font-size="14" fill="#ff9a62">browser-qa</text></g>
+  <g class="node n6"><rect x="800" y="302" width="196" height="76" rx="18" fill="url(#glass)" stroke="url(#edge)"/>
+    <text x="822" y="334" font-size="20" font-weight="700" fill="#f7f4ef">Memória</text>
+    <text x="822" y="360" class="mono" font-size="14" fill="#ff9a62">learnings · handoff</text></g>
+</svg>
