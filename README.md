@@ -27,8 +27,6 @@ Você cola uma linha, o agente instala a base na sua máquina e no seu projeto, 
 
 <p align="center">
   <a href=".github/workflows/validate.yml"><img src="https://github.com/rafabragatrause-cmd/toolkit-braga/actions/workflows/validate.yml/badge.svg" alt="Validação do toolkit no GitHub Actions" /></a>
-  &nbsp;
-  <a href="LICENSE"><strong>MIT</strong></a>
 </p>
 
 ---
@@ -122,10 +120,10 @@ node --test scripts/validate-docs.test.mjs
 node scripts/validate-docs.mjs
 ```
 
-## Créditos e licença
+## Créditos
 
 As skills e ferramentas de terceiros citadas aqui pertencem aos seus autores e mantêm as próprias licenças: [Superpowers](https://github.com/obra/superpowers), [mattpocock/skills](https://github.com/mattpocock/skills), [Ponytail](https://github.com/DietrichGebert/ponytail), [Caveman](https://github.com/JuliusBrussee/caveman), [Impeccable](https://github.com/pbakaus/impeccable), [Graphify](https://github.com/Graphify-Labs/graphify), [Context7](https://github.com/upstash/context7), [agent-browser](https://github.com/vercel-labs/agent-browser), [ECC](https://github.com/affaan-m/ECC), [Vercel Agent Skills](https://github.com/vercel-labs/agent-skills) e [spec-kit](https://github.com/github/spec-kit).
 
-Licença [MIT](LICENSE). Mantido por Rafael Braga.
+Mantido por Rafael Braga.
 
 **Sistema antes de gente.**

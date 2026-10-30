@@ -1,8 +1,11 @@
+# Créditos
+
+Parte deste toolkit (guias, prompts, templates e scripts de validação) foi adaptada de um projeto distribuído sob a licença abaixo, que precisa acompanhar toda cópia dessas partes.
+
+```text
 MIT License
 
-Copyright (c) 2026 Rafael Braga
-
-Portions copyright (c) 2026 Matheus Gomes, used under the MIT License.
+Copyright (c) 2026 Matheus Gomes
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -21,3 +24,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```

@@ -30,8 +30,6 @@ You describe the goal. The agent inspects the environment, organizes decisions, 
 
 <p align="center">
   <a href=".github/workflows/validate.yml"><img src="https://github.com/rafabragatrause-cmd/toolkit-braga/actions/workflows/validate.yml/badge.svg" alt="Toolkit validation status on GitHub Actions" /></a>
-  &nbsp;
-  <a href="LICENSE"><strong>MIT</strong></a>
   &nbsp; · &nbsp;
   <a href="README.md">Português</a>
   &nbsp; · &nbsp;
@@ -383,7 +381,7 @@ The first commands test the validator and check links, anchors, destinations, an
 
 Built on [Superpowers](https://github.com/obra/superpowers), [RTK](https://github.com/rtk-ai/rtk), [Ponytail](https://github.com/DietrichGebert/ponytail), [Caveman](https://github.com/JuliusBrussee/caveman), [Graphify](https://github.com/Graphify-Labs/graphify), [Context7](https://github.com/upstash/context7), [agent-browser](https://github.com/vercel-labs/agent-browser), [Vercel Agent Skills](https://github.com/vercel-labs/agent-skills), and [Skills CLI](https://github.com/vercel-labs/skills). Each project maintains its own license and distribution.
 
-Toolkit licensed under [MIT](LICENSE). Maintained by Rafael Braga. Portuguese guide with the skill map and the harness base: [README.md](README.md).
+Maintained by Rafael Braga. Portuguese guide with the skill map and the harness base: [README.md](README.md).
 
 <p align="center">
   <strong>BUILD WITH INTENT. SHIP WITH FLOW.</strong>
